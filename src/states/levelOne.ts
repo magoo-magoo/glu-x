@@ -83,7 +83,7 @@ export class LevelOne extends Phaser.State {
       levelConfig.gameHeight,
       levelConfig.background
     );
-    this.starfield.autoScroll(0, levelConfig.speed);
+    this.starfield.autoScroll(0, levelConfig.speed / 5);
     this.game.world.setBounds(0, 0, levelConfig.gameWidth, levelConfig.gameHeight);
     this.game.physics.arcade.skipQuadTree = true;
 

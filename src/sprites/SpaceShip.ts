@@ -85,7 +85,7 @@ export class SpaceShip extends Phaser.Sprite {
       if (this.cursors.up.isDown) {
         this.thurst(speedFactor);
       } else if (this.cursors.down.isDown) {
-        this.reverse(speedFactor);
+        this.reverse(-0.5 * speedFactor);
       } else {
         this.body.acceleration.set(0);
       }
