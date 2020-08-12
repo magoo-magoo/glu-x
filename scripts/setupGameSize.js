@@ -2,9 +2,9 @@ var PNGImage = require("pngjs-image");
 var commander = require("commander");
 var shell = require("shelljs");
 
-var defaultWidth = 800;
-var defaultHeight = 500;
-var defaultAspectRatio = 1.6;
+var defaultWidth = 1200;
+var defaultHeight = 750;
+var defaultAspectRatio = defaultWidth / defaultHeight;
 var defaultScaleMode = "NO_SCALE";
 var possibleScaleModes = [
   "USER_SCALE",

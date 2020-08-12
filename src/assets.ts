@@ -131,6 +131,11 @@ export namespace Images {
 
         public static getPNG(): string { return require('assets/explode1.png'); }
     }
+    export class Farback {
+        public static getName(): string { return 'farback'; }
+
+        public static getGIF(): string { return require('assets/farback.gif'); }
+    }
     export class Fireball {
         public static getName(): string { return 'fireball'; }
 
@@ -196,6 +201,21 @@ export namespace Images {
 
         public static getPNG(): string { return require('assets/red_ball.png'); }
     }
+    export class Shield3Small {
+        public static getName(): string { return 'shield_3_small'; }
+
+        public static getPNG(): string { return require('assets/shield_3_small.png'); }
+    }
+    export class Shield3 {
+        public static getName(): string { return 'shield_3'; }
+
+        public static getPNG(): string { return require('assets/shield_3.png'); }
+    }
+    export class ShieldSpritesheet {
+        public static getName(): string { return 'shield_spritesheet'; }
+
+        public static getPNG(): string { return require('assets/shield_spritesheet.png'); }
+    }
     export class Shinyball {
         public static getName(): string { return 'shinyball'; }
 
@@ -215,6 +235,11 @@ export namespace Images {
         public static getName(): string { return 'ship'; }
 
         public static getPNG(): string { return require('assets/ship.png'); }
+    }
+    export class ShmupSpritesStarfield {
+        public static getName(): string { return 'Shmup_Sprites_Starfield'; }
+
+        public static getPNG(): string { return require('assets/Shmup_Sprites_Starfield.png'); }
     }
     export class ShmupBaddieBullet {
         public static getName(): string { return 'shmup-baddie-bullet'; }
@@ -300,6 +325,11 @@ export namespace Images {
         public static getName(): string { return 'starfield'; }
 
         public static getJPG(): string { return require('assets/starfield.jpg'); }
+    }
+    export class Start {
+        public static getName(): string { return 'start'; }
+
+        public static getPNG(): string { return require('assets/start.png'); }
     }
     export class ThrustShip {
         public static getName(): string { return 'thrust_ship'; }

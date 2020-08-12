@@ -1,4 +1,7 @@
+
+const random = new Phaser.RandomDataGenerator([Date.now()]);
+
 export const randomInteger = (a: number, b: number) =>
-  Number.parseInt(Phaser.Math.random(a, b).toFixed(0));
+  random.integerInRange(a, b);
 
 export const randomBoolean = () => randomInteger(0, 1) === 1;

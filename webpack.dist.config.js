@@ -32,10 +32,10 @@ module.exports = {
             'DEBUG': false,
 
             // Do not modify these manually, you may break things...
-            'DEFAULT_GAME_WIDTH': /*[[DEFAULT_GAME_WIDTH*/800/*DEFAULT_GAME_WIDTH]]*/,
-            'DEFAULT_GAME_HEIGHT': /*[[DEFAULT_GAME_HEIGHT*/500/*DEFAULT_GAME_HEIGHT]]*/,
-            'MAX_GAME_WIDTH': /*[[MAX_GAME_WIDTH*/800/*MAX_GAME_WIDTH]]*/,
-            'MAX_GAME_HEIGHT': /*[[MAX_GAME_HEIGHT*/500/*MAX_GAME_HEIGHT]]*/,
+            'DEFAULT_GAME_WIDTH': /*[[DEFAULT_GAME_WIDTH*/1200/*DEFAULT_GAME_WIDTH]]*/,
+            'DEFAULT_GAME_HEIGHT': /*[[DEFAULT_GAME_HEIGHT*/750/*DEFAULT_GAME_HEIGHT]]*/,
+            'MAX_GAME_WIDTH': /*[[MAX_GAME_WIDTH*/1200/*MAX_GAME_WIDTH]]*/,
+            'MAX_GAME_HEIGHT': /*[[MAX_GAME_HEIGHT*/750/*MAX_GAME_HEIGHT]]*/,
             'SCALE_MODE': JSON.stringify(/*[[SCALE_MODE*/'NO_SCALE'/*SCALE_MODE]]*/),
 
             // The items below most likely the ones you should be modifying
@@ -56,7 +56,7 @@ module.exports = {
             }
         }),
         new HtmlWebpackPlugin({
-            title: 'Phaser NPM Webpack TypeScript Starter Project!',
+            title: 'Glu-X',
             template: path.join(__dirname, 'templates/index.ejs')
         })
     ],
