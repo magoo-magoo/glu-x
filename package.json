@@ -27,7 +27,7 @@
     "copy-webpack-plugin": "^4.6.0",
     "echo-cli": "1.0.8",
     "electron": "1.7.11",
-    "electron-packager": "10.1.1",
+    "electron-packager": "10.1.2",
     "expose-loader": "0.7.4",
     "file-loader": "1.1.6",
     "html-webpack-plugin": "2.30.1",
