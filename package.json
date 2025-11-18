@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@types/node": "9.3.0",
-    "@types/webfontloader": "1.6.29",
+    "@types/webfontloader": "1.6.38",
     "clean-webpack-plugin": "0.1.17",
     "commander": "2.13.0",
     "copy-webpack-plugin": "^4.6.0",
